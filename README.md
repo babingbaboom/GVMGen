@@ -19,13 +19,13 @@ pip install -r requirements.txt
 
 ### 3. Data Preprocessing
 
-Please refer to ./data_preprocess
+Please refer to ```./data_preprocess```
 
 ### 4. Training
 
-* Download MusicGen model from [MusicGen (small)](https://huggingface.co/facebook/musicgen-small) or [MusicGen (medium)](https://huggingface.co/facebook/musicgen-medium) and put them into ./checkpoints folder.
+* Download MusicGen model from [MusicGen (small)](https://huggingface.co/facebook/musicgen-small) or [MusicGen (medium)](https://huggingface.co/facebook/musicgen-medium) and put them into ```./checkpoints``` folder.
 * Modify the config files
-  There are some variables you **must** modify before your training. Other changes are optional and you can refer to each default.yaml
+  There are some variables you **must** modify before your training. Other changes are optional and you can refer to each ```default.yaml```
 
   ```
   config/dset/train.yaml datasource.evaluate path/to/eval_folder
@@ -59,15 +59,19 @@ python load_model.py --checkpoint_path path/to/your_checkpoint --output_path pat
 python test.py --model_path ./checkpoints/state_dict.bin --video_path test.mp4 --syn_path output --fps 1 --duration 30
 ```
 
-### 6. Dataset and Model weights
+### 6. Evaluation Model
+
+Please refer to ```./evaluation_model``` folder.
+
+### 7. Dataset and Model weights
 
 We will release our dataset and pretrained model weight soon.
 
-### 7. Acknowledgements
+### 8. Acknowledgements
 
 you may refer to related work that serves as foundations for our framework and code repository, CLIP, MusicGen. Thanks for their wonderful works.
 
-### 8. Citation
+### 9. Citation
 ```
 @inproceedings{zuo2025gvmgen,
         title={GVMGen: A General Video-to-Music Generation Model With Hierarchical Attentions},
