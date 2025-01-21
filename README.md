@@ -1,5 +1,6 @@
 ## GVMGen: A General Video-to-Music Generation Model With Hierarchical Attentions
 
+[[Paper](https://arxiv.org/abs/2501.09972)]
 [[Project Website](https://chouliuzuo.github.io/GVMGen/)]
 ![Model Architecture](./static/images/model.png)
 
