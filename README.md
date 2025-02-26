@@ -52,7 +52,7 @@ Please refer to ```./data_preprocess```
 
 ### 5. Inference
 
-* transform model weights
+* transform model weights (Run this step **only when loading your own trained model**. If you want to test our published model, please skip it.)
 
 ```
 python load_model.py --checkpoint_path path/to/your_checkpoint --output_path path/to/output
@@ -71,7 +71,7 @@ Please refer to ```./evaluation_model``` folder.
 ### 7. Dataset and Model weights
 
 We will release our dataset soon.
-The pretrained model's parameter weights have been published and can be accessed at [here](https://drive.google.com/drive/folders/1OKVQlz7TPKEGTPEK-BiH1tJ3FYT11GON?usp=sharing)
+The pretrained model's parameter weights have been published and can be accessed at [here](https://drive.google.com/drive/folders/1OKVQlz7TPKEGTPEK-BiH1tJ3FYT11GON?usp=sharing).
 
 ### 8. Acknowledgements
 
