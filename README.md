@@ -70,7 +70,8 @@ Please refer to ```./evaluation_model``` folder.
 
 ### 7. Dataset and Model weights
 
-We will release our dataset and pretrained model weight soon.
+We will release our dataset soon.
+The pretrained model's parameter weights have been published and can be accessed at [here](https://drive.google.com/drive/folders/1OKVQlz7TPKEGTPEK-BiH1tJ3FYT11GON?usp=sharing)
 
 ### 8. Acknowledgements
 
