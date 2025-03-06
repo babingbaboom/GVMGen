@@ -81,7 +81,7 @@ you may refer to related work that serves as foundations for our framework and c
 ```
 @inproceedings{zuo2025gvmgen,
         title={GVMGen: A General Video-to-Music Generation Model With Hierarchical Attentions},
-        author={Zuo, heda and You, Weitao and Wu, junxian and Ren, Shihong and Chen, Pei and Zhou, Mingxu and Lu, Yujia and Sun, Lingyun},
+        author={Zuo, Heda and You, Weitao and Wu, Junxian and Ren, Shihong and Chen, Pei and Zhou, Mingxu and Lu, Yujia and Sun, Lingyun},
         booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
         year={2025}
     }
