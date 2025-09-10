@@ -1,9 +1,9 @@
 default:
-  dora_dir: path/to/your_dir
+  dora_dir: C:\Users\babingbaboom\Desktop\组会汇报材料\20250918\GVMGen
   partitions:
     global: debug
     team: debug
-  reference_dir: path/to/your_dir
+  reference_dir: C:\Users\babingbaboom\Desktop\组会汇报材料\20250918\GVMGen
 darwin:  # if we detect we are on a Mac, then most likely we are doing unit testing etc.
   dora_dir: path/to/your_dir
   partitions:

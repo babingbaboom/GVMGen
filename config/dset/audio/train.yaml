@@ -4,7 +4,7 @@ datasource:
   max_channels: 2
   max_sample_rate: 32000
 
-  evaluate: datasets/eval
-  generate: dataset/eval
-  train: dataset/train
-  valid: dataset/eval
+  evaluate: C:\Users\babingbaboom\Desktop\组会汇报材料\20250918\GVMGen\dataset\eval
+  generate: C:\Users\babingbaboom\Desktop\组会汇报材料\20250918\GVMGen\dataset\eval
+  train: C:\Users\babingbaboom\Desktop\组会汇报材料\20250918\GVMGen\dataset\train
+  valid: C:\Users\babingbaboom\Desktop\组会汇报材料\20250918\GVMGen\dataset\eval
